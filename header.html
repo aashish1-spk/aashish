@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools Online Web Tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+
+    <style>
+  
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+            height: 60px;
+            width: 100%;
+            background-color:burlywood;  
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* space-between left head left ma ra right head right ma ani bich ma space dinxa */
+        }
+
+        .left-head{
+            background-color:skyblue;
+            display:flex;
+            align-items: center;
+            height: 100%;
+            gap: 2rem;
+            margin-left: 10px;
+            
+        }
+
+        .right-head{
+            background-color:palevioletred;
+            display:flex;
+            align-items: center;
+            height: 100%;
+            gap: 2rem;
+            margin-right: 10px;
+  
+        }
+
+        .head{
+            height: 100%;
+            display:flex;
+            align-items: center;
+            height: 100%;
+            /* background-color:pink; */
+        } 
+
+        .head a{
+            text-decoration: none;
+            font-size: 20px;
+            color:black;
+            gap:50px;
+        }
+
+        .head a:hover{
+            background-color: rgb(65, 192, 65);
+        }
+
+        .left-head > i{
+            font-size: 24px;
+
+        }
+
+        .head i {
+            font-size: 20px;
+
+        }
+
+        .head input{
+            background-color: white;
+            border-radius: 30px;
+            padding: 2px 15px;
+        } 
+
+        .btn{
+            border:1px solid green;
+            border-radius: 30px;
+            padding: 10px 10px;
+        }
+
+        .sign-btn{
+            background-color: green;   
+        }
+
+        .login-bth{
+            background-color: antiquewhite;
+        }
+
+    
+
+
+        nav{
+            max-height: 40px;
+            width:100%;
+            background-color: rgb(60, 59, 59);
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem 1rem;
+
+        }
+
+        nav a{
+            color:rgb(218, 206, 206);
+            font-family: Arial;
+            display:flex;
+            justify-content: space-around;
+            text-decoration: none;
+
+        }
+
+        .container1{
+            background-color:  rgb(60, 59, 59);
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="left-head">
+            <img src="/w3school/Images/w3schools-logo-icon.png" alt="" height="40cm" width="40cm">
+
+            <div class="head">
+                <a href="">Tutorials</a>
+                <i class="fa-solid fa-caret-down"></i>    
+            </div>
+
+            <div class="head">
+                <a href="">Exercises</a>
+                <i class="fa-solid fa-caret-down"></i>    
+            </div>
+
+            
+            <div class="head">
+                <a href="">Certificates</a>
+                <i class="fa-solid fa-caret-down"></i>    
+            </div>
+
+            <div class="head">
+                <a href="">Services</a>
+                <i class="fa-solid fa-caret-down"></i>    
+            </div>
+
+            <div class="head">
+                <input type="text" placeholder="Search..">
+                    <!--search-box  -->
+                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                     
+            </div>
+        
+            <i class="fa-solid fa-toggle-off"></i>
+        </div>
+
+
+
+        <div class="right-head">
+            <div class="head">
+                <a href="">Plus</a>   
+            </div>
+
+            <div class="head">
+                <i class="fa-light fa-code"></i>
+                <a href="">Spaces</a>   
+            </div>
+
+            <div class="head">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="">Get Certified</a> 
+            </div>
+
+            <div class="btn">  
+                <button class="sign-btn">Sign Up</button>
+                <button class="login-btn">Log In</button>
+            </div>
+            
+        </div>
+
+    </header>
+
+    <nav>
+        <a href="">HTML</a>
+        <a href="">CSSL</a>
+        <a href="">JAVASCRIPT</a>
+        <a href="">SQL</a>
+        <a href="">PYTHON</a>
+        <a href="">JAVA</a>
+        <a href="">PHP</a>
+        <a href="">HOW TO</a>
+        <a href="">W3.CSS</a>
+        <a href="">C</a>
+        <a href="">C++</a>
+        <a href="">C## </a>
+        <a href="">BOOTSTRAP</a>
+        <a href="">REACT</a>
+        <a href="">MY SQL</a>
+        <a href="">W3.CSS</a>
+        <a href="">JQUERY</a>
+        <a href="">EXCEL</a>
+        <a href="">XML</a>
+        <a href="">DJANGO</a>
+    </nav>
+
+
+    
+  
+</body>
+</html>
